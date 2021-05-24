@@ -1,5 +1,4 @@
-gdal-bin
-python-gdal
-python3-gdal
-libproj-dev
 libudunits2-dev
+python3-gdal
+gdal-bin
+libgdal-dev
