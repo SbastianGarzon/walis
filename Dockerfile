@@ -1,4 +1,4 @@
-FROM cyversevice/shiny-geospatial:3.6.3
+FROM rocker/shiny
 
 RUN apt-get update && apt-get install -y \
 	sudo\
@@ -7,9 +7,6 @@ RUN apt-get update && apt-get install -y \
 
 RUN pip install --no-cache-dir notebook==5.*
 RUN pip install --no-cache-dir jupyterhub
-
-# Make sure the contents of our repo are in ${HOME}
-COPY . ${HOME}
 
 RUN Rscript install.R
 
