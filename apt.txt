@@ -1,4 +1,1 @@
-libgdal-dev
-libgeos-dev
-libudunits2-dev
-libproj-dev
+gdal-bin
