@@ -1,4 +1,4 @@
-FROM rocker/geospatial:cf6258237ff9
+FROM rocker/geospatial:3ea7e115954e
 
 RUN pip install --no-cache-dir notebook==5.*
 RUN pip install --no-cache-dir jupyterhub
