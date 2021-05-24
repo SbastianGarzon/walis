@@ -48,7 +48,7 @@ RUN pip install --no-cache-dir jupyterhub
 # Make sure the contents of our repo are in ${HOME}
 COPY . ${HOME}
 
-RUN Rscript install.r
+RUN Rscript install.R
 
 
 
