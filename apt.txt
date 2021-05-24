@@ -1,4 +1,4 @@
-libgdal-dev
-gdal-bin
+libgdal=3.0.*
+gdal=3.0.*
 libproj-dev
 libudunits2-dev
