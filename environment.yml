@@ -1,0 +1,8 @@
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=3.6
+- libgdal=3.0.*
+- pip:
+  - gdal==3.0.*
