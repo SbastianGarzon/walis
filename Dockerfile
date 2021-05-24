@@ -1,4 +1,4 @@
-FROM rocker/geospatial:4.1.0
+FROM cyversevice/shiny-geospatial:3.6.3
 
 RUN apt-get update && apt-get install -y \
 	sudo\
