@@ -1,0 +1,24 @@
+channels:
+- conda-forge
+dependencies:
+- r-base=3.6
+- r-shiny
+- r-shinydashboard
+- r-shinydashboardPlus
+- r-shinythemes
+- r-shinyWidgets
+- r-readr
+- r-DT
+- r-dplyr
+- r-leaflet
+- r-leaflet.extras
+- r-sf
+- r-ggplot2
+- r-gtable
+- r-ggnewscale
+- r-ggiraph
+- r-tidyverse
+- python=3.6
+- libgdal=3.0.*
+- pip:
+  - gdal==3.0.*
