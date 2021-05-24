@@ -1,4 +1,4 @@
-FROM rocker/geospatial:cf6258237ff9
+FROM rocker/shiny:4.1.0
 
 RUN apt-get update && apt-get install -y \
 	software-properties-common
