@@ -30,11 +30,11 @@ RUN apt-get update \
     protobuf-compiler \
     sqlite3 \
     tk-dev \
-    unixodbc-dev
+    unixodbc-dev\
+    sudo\
+    python3-pip
 
 RUN install2.r --error \
-    sudo\
-    python3-pip\
     proj4 \
     raster \
     rgdal \
