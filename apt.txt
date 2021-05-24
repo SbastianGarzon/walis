@@ -1,4 +1,4 @@
-libgdal-dev=3.0.4+dfsg-1build3
-gdal-bin=3.0.4+dfsg-1~bionic0
-libproj-dev=7.1.0-1
+libgdal-dev=3.0.4
+gdal-bin=3.0.4
+libproj-dev=7.1.0
 libudunits2-dev
