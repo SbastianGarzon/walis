@@ -1,7 +1,6 @@
 channels:
 - conda-forge
 dependencies:
-- r-base=4.0.2
 - r-shiny
 - r-shinydashboard
 - r-shinydashboardPlus
